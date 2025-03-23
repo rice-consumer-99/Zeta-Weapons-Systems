@@ -1,0 +1,85 @@
+﻿{
+    "code": "leemetfordstock",
+
+    "variantgroups": [
+        {
+            "code": "material",
+            "states": [ "oak" ]
+        }
+    ],
+    "maxstacksize": 1,
+    "shape": { "base": "weaponszeta:item/vsleemetfordstock" },
+    "texturesByType": {
+        "*": {
+            "oak": { "base": "game:block/wood/debarked/{material}" }
+        }
+    },
+
+    "creativeinventory": {
+        "general": [ "*" ],
+        "weaponsZeta": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 16,
+            "y": -4,
+            "z": -3
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 137
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.5
+    },
+
+    "tpHandTransform": {
+        "translation": {
+            "x": 0.9,
+            "y": -0.1,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 2,
+            "z": 3
+        },
+        "scale": 1.5
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.5
+    },
+    "attributes": {
+        "damageByType": {
+            "*-copper": -5,
+            "*-bismuth": -3,
+            "*-gold": 7,
+            "*-silver": 0,
+            "*-lead": 0
+        },
+        "breakChanceOnImpact": 1,
+        "handbook": {
+            "groupBy": [ "bullet-*" ]
+        }
+    }
+}

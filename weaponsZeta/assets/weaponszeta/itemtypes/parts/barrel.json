@@ -1,0 +1,72 @@
+{
+    "code": "barrel",
+
+    "variantgroups": [
+        {
+            "code": "material",
+            "states": [ "steel" ]
+        }
+    ],
+    "maxstacksize": 1,
+    "shape": { "base": "weaponszeta:item/vsleemetfordbarrel" },
+    "attributes": {
+        "handbook": {
+            "groupBy": [ "leemetford-*" ]
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "weaponsZeta": [ "*" ]
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -45
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 6
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 60
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.5
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.5
+    }
+}
+
+

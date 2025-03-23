@@ -1,0 +1,15 @@
+{
+	"ingredientPattern": "DDD",
+	"width": 3,
+	"height": 1,	
+	"ingredients": {
+		"D": {
+			"type": "item",
+			"code": "game:rod-steel"
+		}
+	},
+	"output": {
+		"type": "item",
+		"code": "weaponszeta:barrel-steel"
+	}
+}

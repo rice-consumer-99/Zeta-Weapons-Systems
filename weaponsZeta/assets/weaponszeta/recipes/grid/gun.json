@@ -1,0 +1,33 @@
+{
+	"ingredientPattern": "AB_DC_E__",
+	"width": 3,
+	"height": 3,
+	"ingredients": {
+		"A": {
+			"type": "item",
+			"code": "game:hammer-*",
+			"istool": true
+		},
+		"B": {
+			"type": "item",
+			"code": "game:chisel-*",
+			"istool": true
+		},
+		"E": {
+			"type": "item",
+			"code": "weaponszeta:leemetfordstock-oak"
+		},
+		"D": {
+			"type": "item",
+			"code": "game:ingot-steel"
+		},
+		"C": {
+			"type": "item",
+			"code": "weaponszeta:barrel-steel"
+		}
+	},
+	"output": {
+		"type": "item",
+		"code": "weaponszeta:boltAction-leemetford"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"ingredientPattern": "DDD",
+	"width": 3,
+	"height": 1,	
+	"ingredients": {
+		"D": {
+			"type": "block",
+			"code": "game:debarkedlog-*-ud"
+		}
+	},
+	"output": {
+		"type": "item",
+		"code": "weaponszeta:leemetfordstock-oak"
+	}
+}

@@ -1,0 +1,86 @@
+﻿{
+    "code": "riflebullet",
+
+    "variantgroups": [
+        {
+            "code": "material",
+            "states": [ "copper", "gold", "silver", "lead", "bismuth" ]
+        }
+    ],
+    "maxstacksize": 64,
+    "storageFlags": 513,
+    "shape": { "base": "weaponszeta:entity/bullet" },
+    "texturesByType": {
+        "*": {
+            "lead": { "base": "game:block/metal/ingot/{material}" }
+        }
+    },
+
+    "creativeinventory": {
+        "general": [ "*" ],
+        "weaponsZeta": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 2,
+            "y": -6,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 6
+    },
+
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 2,
+            "z": 3
+        },
+        "scale": 0.48
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 2.64
+    },
+    "attributes": {
+        "damageByType": {
+            "*-copper": -5,
+            "*-bismuth": -3,
+            "*-gold": 7,
+            "*-silver": 0,
+            "*-lead": 0
+        },
+        "breakChanceOnImpact": 1,
+        "handbook": {
+            "groupBy": [ "bullet-*" ]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Case/Bullet",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"lead": "game:block/metal/ingot/lead"
+	},
+	"elements": [
+		{
+			"name": "Bullet",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.5, 0.5, 0.7 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#lead", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+				"east": { "texture": "#lead", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+				"south": { "texture": "#lead", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+				"west": { "texture": "#lead", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+				"up": { "texture": "#lead", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#lead", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+			}
+		}
+	]}

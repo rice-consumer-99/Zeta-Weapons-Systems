@@ -1,0 +1,97 @@
+{
+    "code": "cartridge",
+
+    "variantgroups": [
+        {
+            "code": "material",
+            "states": [ "brass", "iron", "steel" ]
+        },
+        {
+            "code": "materialbullet",
+            "states": [ "copper", "gold", "silver", "lead", "bismuth" ]
+        }
+    ],
+    "skipVariants": [
+        "cartridge-brass",
+        "cartridge-iron",
+        "cartridge-steel"
+    ],
+    "maxstacksize": 64,
+    "storageFlags": 513,
+    "shape": { "base": "weaponszeta:item/cartridge-live" },
+    "attributes": {
+        "arrowEntityCodeByType": {
+            "*": "weaponszeta:bulletfired-"
+        },
+        "damageByType": {
+            "*": 100
+        },
+        "breakChanceOnImpactByType": {
+            "*-lead": 0.33
+        },
+        "handbook": {
+            "groupBy": [ "bullet-*" ]
+        }
+    },
+    "texturesByType": {
+        "*": {
+            "brass": { "base": "game:block/metal/ingot/{material}" },
+            "lead": { "base": "game:block/metal/ingot/{materialbullet}" }
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "weaponsZeta": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 3,
+            "y": 18,
+            "z": 0
+        },
+        "rotation": {
+            "x": -33,
+            "y": -45,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0.17,
+            "z": 0.07
+        },
+        "scale": 5
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "scale": 1.01
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 6
+    }
+}
+
+

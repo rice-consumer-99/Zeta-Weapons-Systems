@@ -1,0 +1,64 @@
+{
+	"ingredientPattern": "A__CF_DE_",
+	"width": 3,
+	"height": 3,
+	"ingredients": {
+		"A": {
+			"type": "item",
+			"code": "game:hammer-*",
+			"istool": true
+		},
+
+		"C": {
+			"type": "item",
+			"code": "game:blastingpowder"
+		},
+		"F": {
+			"type": "item",
+			"code": "weaponszeta:riflebullet-*",
+			"name": "metal2"
+		},
+		"D": {
+			"type": "item",
+			"code": "weaponszeta:cartridgecase-*",
+			"name": "metal"
+		},
+		"E": {
+			"type": "item",
+			"code": "weaponszeta:primer-*"
+		}
+
+	},
+	"skipvariants": [
+		"*-copper",
+		"*-tinbronze",
+		"*-blistersteel",
+		"*-leadsolder",
+		"*-silversolder",
+		"*-bismuth",
+		"*-bismuthbronze",
+		"*-blackbronze",
+		"*-chromium",
+		"*-cupronickel",
+		"*-electrum",
+		"*-gold",
+		"*-meteroriciron",
+		"*-lead",
+		"*-molybdochalkos",
+		"*-platinum",
+		"*-nickel",
+		"*-silver",
+		"*-stainlesssteel",
+		"*-steel",
+		"*-tin",
+		"*-tinbronze",
+		"*-titanum",
+		"*-uranium",
+		"*-zinc"
+	],
+
+	"output": {
+		"type": "item",
+		"code": "weaponszeta:cartridge-{metal}-{metal2}"
+	}
+}

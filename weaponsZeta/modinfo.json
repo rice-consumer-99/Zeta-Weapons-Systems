@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "weaponszeta",
+    "name": "Weapons Systems Zeta",
+    "authors": [
+        "Ricecism"
+    ],
+    "description": "A gun and misc weapons mod, very WIP ",
+    "version": "0.0.1",
+    "dependencies": {
+        "game": ""
+    }
+}

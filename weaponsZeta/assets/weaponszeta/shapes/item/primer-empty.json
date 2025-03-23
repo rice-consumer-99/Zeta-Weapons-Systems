@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Case/Bullet",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"brass": "game:block/metal/ingot/brass"
+	},
+	"elements": [
+		{
+			"name": "Case",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.2, 0.2, 0.1 ],
+			"uv": [ 0.0, 2.5 ],
+			"faces": {
+				"north": { "texture": "#brass", "uv": [ 0.0, 3.0, 0.5, 3.5 ] },
+				"east": { "texture": "#brass", "uv": [ 0.5, 3.0, 1.0, 3.5 ] },
+				"south": { "texture": "#brass", "uv": [ 1.0, 3.0, 1.5, 3.5 ] },
+				"west": { "texture": "#brass", "uv": [ 1.5, 3.0, 2.0, 3.5 ] },
+				"up": { "texture": "#brass", "uv": [ 0.0, 2.5, 0.5, 3.0 ] },
+				"down": { "texture": "#brass", "uv": [ 0.5, 2.5, 1.0, 3.0 ] }
+			}
+		}
+	]}

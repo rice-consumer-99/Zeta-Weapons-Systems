@@ -1,0 +1,25 @@
+{
+    "game:tabname-weaponsZeta": "Zeta Weapon systems",
+    "weaponszeta:block-riflebulletmold-raw": "Raw bullet mold",
+    "weaponszeta:block-riflebulletmold-burned": "Bullet mold",
+    "weaponszeta:block-riflecartridgemold-raw": "Raw Cartridge case mold",
+    "weaponszeta:block-riflecartridgemold-burned": "Cartridge case mold",
+    "weaponszeta:item-cartridge-*-copper": "Cartridge, copper bullet",
+    "weaponszeta:item-cartridge-*-gold": "Cartridge, gold bullet",
+    "weaponszeta:item-cartridge-*-silver": "Cartridge, silver bullet",
+    "weaponszeta:item-cartridge-*-lead": "Cartridge, lead bullet",
+    "weaponszeta:item-cartridge-*-bismuth": "Cartridge, bismuth bullet",
+    "weaponszeta:item-barrel-*": "Gun Barrel",
+    "weaponszeta:item-riflebullet-copper": "Copper bullet",
+    "weaponszeta:item-riflebullet-gold": "Gold bullet",
+    "weaponszeta:item-riflebullet-silver": "Silver bullet",
+    "weaponszeta:item-riflebullet-lead": "Lead bullet",
+    "weaponszeta:item-riflebullet-bismuth": "Bismuth bullet",
+    "weaponszeta:item-cartridgecase-brass": "Brass cartridge case",
+    "weaponszeta:item-cartridgecase-iron": "iron cartridge case",
+    "weaponszeta:item-cartridgecase-steel": "steel cartridge case",
+    "weaponszeta:item-primer-brass": "Primer",
+    "weaponszeta:item-leemetfordstock-oak": "Stock",
+    "weaponszeta:item-boltaction-leemetford": "Magazine Lee-Metford"
+
+}

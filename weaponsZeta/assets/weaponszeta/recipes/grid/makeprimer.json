@@ -1,0 +1,59 @@
+{
+	"ingredientPattern": "AB_C__E__",
+	"width": 3,
+	"height": 3,
+	"ingredients": {
+		"A": {
+			"type": "item",
+			"code": "game:hammer-*",
+			"istool": true
+		},
+		"B": {
+			"type": "item",
+			"code": "game:chisel-*",
+			"istool": true
+		},
+		"C": {
+			"type": "item",
+			"code": "game:blastingpowder"
+		},
+		"E": {
+			"type": "item",
+			"code": "game:ingot-brass",
+			"name": "metal"
+		}
+
+	},
+	"skipvariants": [
+		"*-copper",
+		"*-tinbronze",
+		"*-blistersteel",
+		"*-leadsolder",
+		"*-silversolder",
+		"*-bismuth",
+		"*-bismuthbronze",
+		"*-blackbronze",
+		"*-chromium",
+		"*-cupronickel",
+		"*-electrum",
+		"*-gold",
+		"*-meteroriciron",
+		"*-lead",
+		"*-molybdochalkos",
+		"*-platinum",
+		"*-nickel",
+		"*-silver",
+		"*-stainlesssteel",
+		"*-steel",
+		"*-tin",
+		"*-tinbronze",
+		"*-titanum",
+		"*-uranium",
+		"*-zinc"
+	],
+
+	"output": {
+		"type": "item",
+		"code": "weaponszeta:primer-brass"
+	}
+}
