@@ -1,0 +1,218 @@
+[
+    {
+        "file": "game:entities/humanoid/player",
+        "op": "add",
+        "path": "/client/animations/-",
+        "value": {
+            "code": "rifleAim",
+            "animation": "rifleAim",
+            "animationSpeed": 1,
+            "blendMode": "Add",
+            "elementWeight": {
+                "UpperArmR": 20,
+                "LowerArmR": 20,
+                "UpperArmL": 20,
+                "LowerArmL": 20
+            },
+            "elementBlendMode": {
+                "UpperArmR": "AddAverage",
+                "LowerArmR": "AddAverage",
+                "UpperArmL": "AddAverage",
+                "LowerArmL": "AddAverage"
+            }
+        }
+    },
+    {
+        "file": "game:shapes/entity/humanoid/seraph-faceless.json",
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+            "name": "rifleAim",
+            "code": "rifleAim",
+            "quantityframes": 30,
+            "onActivityStopped": "EaseOut",
+            "onAnimationEnd": "Hold",
+            "keyframes": [
+                {
+                    "frame": 0,
+                    "elements": {
+                        "LowerArmR": {
+                            "rotationX": 0.0,
+                            "rotationY": 0.0,
+                            "rotationZ": -100.0
+                        },
+                        "UpperArmR": {
+                            "rotationX": 0.0,
+                            "rotationY": 15.0,
+                            "rotationZ": 0.0
+                        },
+                        "UpperArmL": {
+                            "rotationX": 0.0,
+                            "rotationY": -33.0,
+                            "rotationZ": -50.0
+                        },
+                        "LowerArmL": {
+                            "rotationX": 0.0,
+                            "rotationY": 3.0,
+                            "rotationZ": -47.0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "file": "game:entities/humanoid/player",
+        "op": "add",
+        "path": "/client/animations/-",
+        "value": {
+            "code": "rifleAim-fp",
+            "animation": "rifleAim-fp",
+            "animationSpeed": 1,
+            "blendMode": "Add",
+            "elementWeight": {
+                "UpperArmR": 25,
+                "LowerArmR": 25,
+                "UpperArmL": 25,
+                "LowerArmL": 25
+            },
+            "elementBlendMode": {
+                "UpperArmR": "AddAverage",
+                "LowerArmR": "AddAverage",
+                "UpperArmL": "AddAverage",
+                "LowerArmL": "AddAverage"
+            }
+        }
+    },
+    {
+        "file": "game:shapes/entity/humanoid/seraph-faceless.json",
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+            "name": "rifleAim-fp",
+            "code": "rifleAim-fp",
+            "quantityframes": 30,
+            "onActivityStopped": "EaseOut",
+            "onAnimationEnd": "Hold",
+            "keyframes": [
+                {
+                    "frame": 0,
+                    "elements": {
+                        "LowerArmR": {
+                            "rotationX": 0.0,
+                            "rotationY": 0.0,
+                            "rotationZ": -100.0
+                        },
+                        "UpperArmR": {
+                            "rotationX": 0.0,
+                            "rotationY": 15.0,
+                            "rotationZ": 0.0
+                        },
+                        "UpperArmL": {
+                            "offsetX": 3.0,
+                            "offsetY": 0.0,
+                            "offsetZ": -1.3,
+                            "rotationX": 0.0,
+                            "rotationY": -17.0,
+                            "rotationZ": -89.0
+                        },
+                        "LowerArmL": {
+                            "rotationX": -3.0,
+                            "rotationY": 3,
+                            "rotationZ": -2.0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "file": "game:entities/humanoid/player",
+        "op": "add",
+        "path": "/client/animations/-",
+        "value": {
+            "code": "rifleFire",
+            "animation": "rifleFire",
+            "animationSpeed": 1,
+            "blendMode": "Add",
+            "elementWeight": {
+                "UpperArmR": 90,
+                "LowerArmR": 90,
+                "UpperArmL": 90,
+                "LowerArmL": 90
+            },
+            "elementBlendMode": {
+                "UpperArmR": "AddAverage",
+                "LowerArmR": "AddAverage",
+                "UpperArmL": "AddAverage",
+                "LowerArmL": "AddAverage"
+            }
+        }
+    },
+    {
+        "file": "game:shapes/entity/humanoid/seraph-faceless.json",
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+            "name": "rifleFire",
+            "code": "rifleFire",
+            "quantityframes": 30,
+            "onActivityStopped": "EaseOut",
+            "onAnimationEnd": "Hold",
+            "keyframes": [
+                {
+                    "frame": 0,
+                    "elements": {
+                        "LowerArmR": {
+                            "rotationX": 0.0,
+                            "rotationY": 0.0,
+                            "rotationZ": -100.0
+                        },
+                        "UpperArmR": {
+                            "rotationX": 0.0,
+                            "rotationY": 15.0,
+                            "rotationZ": 0.0
+                        },
+                        "UpperArmL": {
+                            "offsetX": 3.0,
+                            "offsetY": 0.0,
+                            "offsetZ": -1.3,
+                            "rotationX": 0.0,
+                            "rotationY": -17.0,
+                            "rotationZ": -89.0
+                        },
+                        "LowerArmL": {
+                            "rotationX": -3.0,
+                            "rotationY": 3,
+                            "rotationZ": -2.0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "file": "game:entities/humanoid/player",
+        "op": "add",
+        "path": "/client/animations/-",
+        "value": {
+            "code": "rifleCycle",
+            "animation": "rifleCycle",
+            "animationSpeed": 1,
+            "blendMode": "Add",
+            "elementWeight": {
+                "UpperArmR": 1,
+                "LowerArmR": 1,
+                "UpperArmL": 1,
+                "LowerArmL": 1
+            },
+            "elementBlendMode": {
+                "UpperArmR": "AddAverage",
+                "LowerArmR": "AddAverage",
+                "UpperArmL": "AddAverage",
+                "LowerArmL": "AddAverage"
+            }
+        }
+    }
+
+]

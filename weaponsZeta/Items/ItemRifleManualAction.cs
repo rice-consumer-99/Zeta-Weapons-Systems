@@ -50,7 +50,6 @@ namespace weaponsZeta.Items
             };
 
 
-            //aimAnimation = Attributes["aimAnimation"].AsString();
             magazinemax = Attributes["magazine"].AsInt();
 
             if (api.Side != EnumAppSide.Client) return;
@@ -112,7 +111,7 @@ namespace weaponsZeta.Items
             // Not ideal to code the aiming controls this way. Needs an elegant solution - maybe an event bus?
             //byEntity.Attributes.SetInt("aiming", 1);
            // byEntity.Attributes.SetInt("aimingCancel", 0);
-            //byEntity.AnimManager.StartAnimation(aimAnimation);
+
 
             handling = EnumHandHandling.PreventDefault;
         }
@@ -237,6 +236,7 @@ namespace weaponsZeta.Items
         public override void OnHeldInteractStart(ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handling)
         {
             base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
+            byEntity.AnimManager.StartAnimation(aimAnimation);
             if (cocked == false){
                 ItemSlot invslot = GetNextArrow(byEntity);
                 if (invslot == null) return;
@@ -244,6 +244,7 @@ namespace weaponsZeta.Items
                 magazine++;
             }
             handling = EnumHandHandling.PreventDefault;
+
         }
         public override bool OnHeldInteractStep(float secondsUsed, ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel)
         {
@@ -252,6 +253,7 @@ namespace weaponsZeta.Items
 
         public override bool OnHeldInteractCancel(float secondsUsed, ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, EnumItemUseCancelReason cancelReason)
         {
+
             if (cocked == false & secondsUsed <= 0.55)
             {
                 ItemSlot invslot = GetNextArrow(byEntity);
@@ -263,6 +265,7 @@ namespace weaponsZeta.Items
         }
         public override void OnHeldInteractStop(float secondsUsed, ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel)
         {
+
             base.OnHeldInteractStop(secondsUsed, slot, byEntity, blockSel, entitySel);
             if (secondsUsed > 0.55 & cocked == false)
             {

@@ -40,7 +40,8 @@
 
 <ItemGroup>
   <Folder Include="assets\weaponszeta\itemtypes\parts\" />
-  <Folder Include="assets\weaponszeta\shapes\item\" />
 </ItemGroup>
+
+<ProjectExtensions><VisualStudio><UserProperties assets_4weaponszeta_4shapes_4item_4heat-axe_1json__JsonSchema="https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema" /></VisualStudio></ProjectExtensions>
 
 </Project>

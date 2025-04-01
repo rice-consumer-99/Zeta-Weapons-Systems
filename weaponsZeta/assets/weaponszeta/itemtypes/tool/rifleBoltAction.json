@@ -1,0 +1,106 @@
+{
+    "code": "boltAction",
+    "class": "weaponszeta.itemRifleManualAction",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "leemetford" ]
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*" ],
+        "weaponsZeta": [ "*" ]
+    },
+    "shape": {
+        "base": "weaponszeta:item/vsleemetford"
+    },
+    "attributes": {
+        "damageByType": {
+            "boltAction-leemetford": 10
+        },
+        "damageTierByType": {
+            "boltAction-leemetford": 6
+        },
+        "statModifierByType": {
+            "boltAction-leemetford": { "rangedWeaponsAcc": 0.1 }
+        },
+
+        "soundRifleCock0": "sounds/cock0",
+        "soundRifleCock1": "sounds/cock1",
+        "soundLoad0": "sounds/load0",
+        "soundLoad1": "sounds/load1",
+        "soundRifleFire": "sounds/fire",
+        "magazine": 11
+
+    },
+    "durabilityByType": {
+        "boltAction-leemetford": 1000
+    },
+
+    "HeldLeftTpIdleAnimation": "rifleAim",
+    "HeldLeftReadyAnimation": "rifleAim",
+    "HeldRightTpIdleAnimation": "rifleAim",
+    "HeldRightReadyAnimation": "rifleAim",
+    "HeldTpHitAnimation": "rifleFire",
+    "HeldTpUseAnimation": "rifleAim",
+
+    "tpHandTransform": {
+        "translation": {
+            "x": 0.1,
+            "y": -0.6,
+            "z": -0.1
+        },
+        "rotation": {
+            "x": 10,
+            "y": 180,
+            "z": 90
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.25
+    },
+
+    "guiTransformByType": {
+        "*": {
+            "translation": {
+                "x": 14,
+                "y": 2.6,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 1,
+                "z": 144
+            },
+            "origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": 1.6
+        }
+
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 6
+    }
+
+}
